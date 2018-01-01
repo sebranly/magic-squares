@@ -72,3 +72,10 @@ Iteration 9:
 - we move one step down (we are outside the magic square so we go to the very top)
 - as the cell is 0 we set it to the next value which is 9
 ```
+
+## Limitations of this project
+
+This project is only a proof of concept. Here is what I can think of that could be done in order to improve it:
+- have an algorithm that handles even orders (i.e. in order to create magic squares with a `4 * 4` size for example as `4` is even)
+- replace static memory allocation with dynamic memory allocation in C for the 2D array representing the magic square
+- find all combinations of a magic square for a fixed n order. Indeed there are several solutions and it's actually visible on this `README.md` file as the `3 * 3` magic square mentioned in the "Context" section above is different than the one mentioned in the "Algorithm" section
